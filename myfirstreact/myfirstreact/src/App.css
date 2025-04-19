@@ -1,73 +1,24 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-.headerSection {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.formSection{
     background-color: black;
-    color: white;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+    height: 50vh;
 }
-
-.center ul li {
-    list-style: none;
-    display: inline-flex;
-    margin: 0px 5px;
+.inputDiv{
+    width: 15rem;
+    height: 2rem;
 }
-
-.title {
-    font-size: 1rem;
-}
-
-.left {
-    flex: 2;
-    /* border: 1px solid black; */
-}
-
-.center {
-    flex: 4;
-    /* border: 1px solid black; */
-}
-
-.search {
-    flex: 2;
-    /* border: 1px solid black; */
-}
-
-.search input {
-    padding: 10px;
-    width: 20rem;
+.submitButton{
+    padding: 5px 10px;
+    margin-top: 5px;
     border-radius: 5px;
-    margin-left: -150px;
+    background-color: blue;
 }
-
-.right {
-    flex: 4;
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
-}
-
-.bannerBox {
-    margin: 10px 0px;
-}
-
-.bannerBox img {
-    width: 100%;
-}
-
-.menImages {
-    display: flex;
-    gap: 10px;
-}
-
-.menImages img {
-    width: 220px;
-    height: 220px;
+.formSection h1 {
+    color: white;
 }

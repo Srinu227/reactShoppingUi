@@ -1,14 +1,13 @@
- 
-import React from 'react'
+ import React from "react";
 
-import './App.css'
-import MainPage from './ShoppingFolder/pages/MainPage'
+import "./App.css"
+
+import FormExample from "./FormExample";
 
 const App = () => {
   return (
     <div>
-    
-      <MainPage />
+      <FormExample/>
     </div>
   )
 }
